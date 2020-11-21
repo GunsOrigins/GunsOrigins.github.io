@@ -1,0 +1,40 @@
+#title {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+#text {
+    font-family: 'Prompt', sans-serif;
+}
+input {
+    font-family: 'Prompt', sans-serif;
+    padding: 25px;
+}
+button {
+    font-family: 'Prompt', sans-serif;
+}
+#results {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Prompt', sans-serif;
+}
+.container {
+    justify-content: space-around;
+}
+div {
+    padding: 25px 50px;
+}
+.btn-primary {
+    font-family: 'Prompt', sans-serif;
+    padding-left: 25px;
+}
+.lead {
+    font-family: 'Prompt', sans-serif;
+}
+.form-control {
+    font-family: 'Prompt', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
