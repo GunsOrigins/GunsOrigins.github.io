@@ -20,7 +20,7 @@
         <h1 id="title">โปรแกรมคำนวณพื้นที่และปริมาตรของสี่เหลี่ยมและวงกลม</h1>
         
         <div class="jumbotron bg-light">
-            <h3>กรุณากรอกข้อมูลต่อไปนี้</h3>
+            <h3>กรุณากรอกข้อมูลต่อไปนี้(cm)</h3>
             <!--input thing-->
             <div class="container">
                 <input id="WidthValue" type="number" class="form-control" placeholder="กว้าง"></input>
@@ -33,8 +33,8 @@
             <!--button thing-->
             <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindSquares() +' ตารางเซนติเมตร'">หาพื้นที่ของรูปสี่เหลี่ยม</button>
             <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindCircles() +' ตารางเซนติเมตร'">หาพื้นที่ของรูปวงกลม</button>
-            <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindCuboids() +' ตารางเซนติเมตร'">หาพื้นที่ของทรงลูกบาศก์</button>
-            <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindSpheres() +' ตารางเซนติเมตร'">หาพื้นที่ของทรงกลม</button>
+            <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindCuboids() +' ลูกบาศก์เซนติเมตร'">หาปริมาตรของลูกบาศก์</button>
+            <button type="button" class="btn btn-primary" onclick= "document.getElementById('results').innerHTML = 'ผลลัพธ์ที่ได้ คือ ' + FindSpheres() +' ลูกบาศก์เซนติเมตร'">หาปริมาตรของทรงกลม</button>
             <hr class="my-4">
             <h3>ผลลัพธ์</h3>
             <br>
